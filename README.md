@@ -1,5 +1,11 @@
 # LIP-SYNC-float-fast
 
+![](assets/thl2.PNG)
+
+## 🎬 Sample Output
+
+You can view the video file at: [assets/sample_result_vn.mp4](assets/sample_result_vn.mp4)
+
 <div align="center">
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
