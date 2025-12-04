@@ -96,6 +96,16 @@ python generate.py \
 python generate.py --ref_path assets/thl.jpg --aud_path assets/thl_trimmed.wav --seed 15 --a_cfg_scale 2 --e_cfg_scale 1 --ckpt_path ./checkpoints/float.pth
 ```
 
+#### API
+```
+bash fast_api/start.sh
+
+bash fast_api/test_api.sh
+
+
+curl -X POST http://localhost:8001/generate -H "Content-Type: application/json" -d '{"ref_image": "thl2.PNG", "audio_file": "thl_trimmed.wav", "emotion": "neutral", "a_cfg_scale": 2.0, "e_cfg_scale": 1.0, "seed": 15, "nfe": 10}'
+```
+
 ### Tham số cấu hình
 
 | Tham số | Mô tả | Mặc định |
