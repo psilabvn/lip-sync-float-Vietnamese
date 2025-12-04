@@ -93,13 +93,7 @@ python generate.py \
 
 #### Ví dụ
 ```bash
-python generate.py \
-    --ref_path assets/thl.jpg \
-    --aud_path assets/thl_trimmed.wav \
-    --seed 15 \
-    --a_cfg_scale 2 \
-    --e_cfg_scale 1 \
-    --ckpt_path ./checkpoints/float.pth
+python generate.py --ref_path assets/thl.jpg --aud_path assets/thl_trimmed.wav --seed 15 --a_cfg_scale 2 --e_cfg_scale 1 --ckpt_path ./checkpoints/float.pth
 ```
 
 ### Tham số cấu hình
